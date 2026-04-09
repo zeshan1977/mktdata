@@ -1,0 +1,4 @@
+mktdata_sim.cpp: In member function ‘Order MatchingEngine::add(double, double, bool)’:
+mktdata_sim.cpp:77:29: error: operands to ‘?:’ have different types ‘std::map<double, std::vector<Order>, std::greater<void> >’ and ‘std::map<double, std::vector<Order> >’
+   77 |         auto& book = is_buy ? bids : asks;
+      |                      ~~~~~~~^~~~~~~~~~~~~
